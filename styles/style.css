@@ -43,13 +43,13 @@
 #navbar{
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 85%;
     margin: 0px auto;
 
 
 }
 #brand{
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .menu{
@@ -60,9 +60,10 @@
 .menu-item{
     text-decoration: none;
     margin-right: 38px;
+    font-weight: 700;
 }
 #nav-btn{
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 10px;
     background: rgb(254, 163, 1);
     border: none;
@@ -70,6 +71,7 @@
     align-items: center;
     color: white;
     font-weight: 600;
+    font-size: 16px;
 }
 #nav-btn:hover{
     background: white;
@@ -80,7 +82,7 @@
 /* banner styles */
 .banner{
     justify-content: space-between;
-    width: 80%;
+    width: 85%;
     margin: 0px auto;
     align-items: center;
 
@@ -99,7 +101,7 @@
     color: rgb(1, 172, 253);
 }
 .banner-btn{
-    padding: 10px 40px;
+    padding: 15px 40px;
     margin: 20px 0px;
     border-radius: 10px;
     border: none;
@@ -123,7 +125,7 @@
 
 .section-1-content{
     text-align: center;
-    width: 80%;
+    width: 85%;
     margin: 0px auto;
 }
 #section-1-title{
@@ -181,4 +183,9 @@
     border-radius: 50%;
     background: rgb(254, 163, 1);
     border: none;
+}
+.arrow-btn:hover{
+    color: rgb(254, 163, 1);
+    background: white;
+    border: 2px solid rgb(254, 163, 1);
 }
