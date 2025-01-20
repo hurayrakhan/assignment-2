@@ -183,9 +183,82 @@
     border-radius: 50%;
     background: rgb(254, 163, 1);
     border: none;
-}
+}   
+
 .arrow-btn:hover{
     color: rgb(254, 163, 1);
     background: white;
     border: 2px solid rgb(254, 163, 1);
+}
+
+
+
+
+
+/* section-2 styles */
+
+.section-2{
+    background-image: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.section-2-content{
+    width: 85%;
+    margin: 0px auto;
+    text-align: center;
+}
+.section-2-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin: 60px 0px;
+}
+
+.story-cards{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+
+}
+.sub-cards{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.card{    
+    /* width: 300px; */
+    position: relative;
+    padding: 0px;
+    border-radius: 15px;
+    background: white;
+
+}
+#main-card{
+    /* width: 500px; */
+    border-radius: 18px;
+    background: white;
+    padding: 0px;
+}
+.main-card-title{
+    padding: 20px;
+}
+
+.card-img{
+    width: 100%;
+}
+.card-title{
+    padding: 20px;
+}
+
+
+
+
+.section-2-btn{
+    padding: 15px 40px;
+    margin: 50px 0px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 8px;
+}
+.section-2-btn:hover{
+    color: black;
+    background: white;
 }
