@@ -9,6 +9,11 @@
   font-style: normal;
 }
 
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
 /* shared styles */
 .flex{
     display: flex;
@@ -221,7 +226,6 @@
     gap: 20px;
 }
 .card{    
-    /* width: 300px; */
     position: relative;
     padding: 0px;
     border-radius: 15px;
@@ -229,7 +233,6 @@
 
 }
 #main-card{
-    /* width: 500px; */
     border-radius: 18px;
     background: white;
     padding: 0px;
@@ -240,11 +243,21 @@
 
 .card-img{
     width: 100%;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
 }
 .card-title{
     padding: 20px;
 }
+.main-card-description{
 
+}
+
+.legend-badge{
+    
+    
+    background: rgb(1, 172, 253);
+}
 
 
 
@@ -261,4 +274,26 @@
 .section-2-btn:hover{
     color: black;
     background: white;
+}
+
+
+/* footer styles */
+
+footer{    
+    background: rgb(1, 172, 253);
+
+}
+.footer-content{
+    width: 85%;
+    margin: 0px auto;
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: space-around;
+    
+    
+}
+.footer-1{
+    width: ;
 }
