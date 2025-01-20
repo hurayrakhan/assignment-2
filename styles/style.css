@@ -1,0 +1,110 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* shared styles */
+.flex{
+    display: flex;
+}
+/* shared colour */
+.dark-1{
+    color: rgb(17, 17, 17);
+}
+.dark-2{
+
+}
+
+
+.primary-1{
+    color: rgb(254, 163, 1);
+}
+.primary-2{
+    color: rgb(1, 172, 253);
+}
+.primary-3{
+    color: rgb(5, 212, 223);
+}
+.primary-4{
+    color: rgb(93, 88, 239);
+}
+
+
+/* nav styles */
+#navbar{
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+
+
+}
+#brand{
+    font-weight: 700;
+}
+
+.menu{
+    list-style: none;    
+    
+}
+
+.menu-item{
+    text-decoration: none;
+    margin-right: 38px;
+}
+#nav-btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: rgb(254, 163, 1);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+#nav-btn:hover{
+    background: white;
+    color: black;
+    border: 2px solid rgb(254, 163, 1);
+}
+
+/* banner styles */
+.banner{
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    align-items: center;
+
+}
+.banner-content{
+    max-width: 600px;
+}
+.banner-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+#t-1{
+    color: rgb(254, 163, 1);
+}
+#t-2{
+    color: rgb(1, 172, 253);
+}
+.banner-btn{
+    padding: 10px 40px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: black;
+}
+.banner-btn:hover{
+    color: black;
+    background: white;
+    border: 2px solid black;
+}
