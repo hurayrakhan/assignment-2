@@ -82,6 +82,7 @@ body{
     background: white;
     color: black;
     border: 2px solid rgb(254, 163, 1);
+    padding: 13px 28px;
 }
 
 /* banner styles */
@@ -185,7 +186,7 @@ body{
 
 .arrow-btn{
     padding: 30px;
-    border-radius: 50%;
+    border-radius: 100%;
     background: rgb(254, 163, 1);
     border: none;
 }   
@@ -194,6 +195,7 @@ body{
     color: rgb(254, 163, 1);
     background: white;
     border: 2px solid rgb(254, 163, 1);
+    padding: 28px;
 }
 
 
@@ -232,6 +234,9 @@ body{
     background: white;
 
 }
+.card-title{
+    padding: 20px;
+}
 #main-card{
     border-radius: 18px;
     background: white;
@@ -241,23 +246,32 @@ body{
     padding: 20px;
 }
 
+.main-card-description{
+    padding: 20px;
+}
+
 .card-img{
     width: 100%;
     border-top-left-radius: 18px;
     border-top-right-radius: 18px;
-}
-.card-title{
-    padding: 20px;
-}
-.main-card-description{
-
+    
 }
 
 .legend-badge{
-    
-    
-    background: rgb(1, 172, 253);
+    padding: 8px 25px;
+    border-radius: 47px;
+    background-color: rgb(1, 172, 253);
+    left: -20px;
+    top: -17px;
+    color: white;
+    position: relative;
 }
+#main-legend-badge{
+    padding: 15px 25px;
+    left: -100px;
+
+}
+
 
 
 
@@ -297,3 +311,9 @@ footer{
 .footer-1{
     width: ;
 }
+ /* responsive styles */
+
+ @media screen and (max-width:576px) {
+    
+    
+ }
