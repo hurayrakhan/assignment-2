@@ -85,9 +85,13 @@ body{
     padding: 13px 28px;
 }
 #menu-logo{
-     font-size: 40px;
-     padding: 5px 10px;
-     display: none;
+    font-size: 30px;
+    padding: 5px 10px;
+    display: none;
+}
+#h-r{
+    background-color: rgb(254, 163, 1);
+    display: none;
 }
 
 /* banner styles */
@@ -329,7 +333,6 @@ footer{
 
  @media screen and (max-width:576px) {
 
-
 .navbar{
 
     }
@@ -348,6 +351,17 @@ footer{
 .banner{
     flex-direction: column-reverse;
 }
+.banner-img img{
+    width: 300px;
+}
+.banner-title{
+    font-size: 24px;
+}
+.banner-content{
+    margin: auto;
+    width: auto;
+    text-align: center;
+}
 .curriculam-cards{
     grid-template-columns: repeat(1, 1fr);
 }
@@ -357,6 +371,30 @@ footer{
 
 .footer-content{
     grid-template-columns: repeat(1, 1fr);
+    padding-left: 10px;
+    padding-right: 10px;
+    text-wrap: wrap;
+}
+.footer-links{
+    width: fit-content;
+}
+.footer-link{
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+}
+.footer-social{
+    width: fit-content;
+}
+#menu-logo{
+    display: block;
+}
+#h-r{
+    display: block;
+}
+.legend-badge{
+    width: auto;
+    padding: 5px 5px;
 }
 
 }
