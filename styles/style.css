@@ -84,6 +84,11 @@ body{
     border: 2px solid rgb(254, 163, 1);
     padding: 13px 28px;
 }
+#menu-logo{
+     font-size: 40px;
+     padding: 5px 10px;
+     display: none;
+}
 
 /* banner styles */
 .banner{
@@ -271,7 +276,12 @@ body{
     left: -100px;
 
 }
-
+.card-1{
+    background-color: rgb(149, 178, 38);
+}
+.card-2{
+    background-color: rgb(93, 88, 240);
+}
 
 
 
@@ -303,17 +313,37 @@ footer{
     padding: 50px 0px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 50px;
-    justify-content: space-around;
-    
-    
+    /* border: 1px solid; */
+    /* justify-content: space-between; */
+    color: white;
 }
 .footer-1{
-    width: ;
+    margin-right: 200px;
+    width: 400px;
+    /* border: 2px solid red; */
+}
+.logos{
+    gap: 5px;
 }
  /* responsive styles */
 
  @media screen and (max-width:576px) {
-    
-    
+.navbar{
+
+    }
+#brand{
+    display: none; 
  }
+.menu{
+    display: none;
+}
+#nav-btn{
+    display: none;
+}
+#menu-logo{
+    display: contents;
+}
+
+
+
+}
